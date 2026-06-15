@@ -14,7 +14,8 @@ export default function ConsentManager({ children }: { children: ReactNode }) {
       options={{
         mode: "hosted",
         // backendURL: `${env.NEXT_PUBLIC_BASE_URL}/api/c15t`,
-        backendURL: `/api/c15t`,
+        backendURL: `https://c15t-nextjs.vercel.app/api/c15t`,
+        // backendURL: `/api/c15t`,
         // backendURL: `https://leonidas-caulescent-elfriede.ngrok-free.dev/api/c15t`,
         consentCategories: ["necessary", "measurement", "marketing"],
         // Shows banner during development. Remove for production.

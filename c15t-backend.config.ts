@@ -14,5 +14,5 @@ const db = drizzle({ client: pool });
 
 export default defineConfig({
   adapter: drizzleAdapter({ provider: "postgresql", db }),
-  trustedOrigins: ["http://localhost:3000", "https://c15t-nextjs.vercel.app"],
+  trustedOrigins: ["localhost"],
 });
